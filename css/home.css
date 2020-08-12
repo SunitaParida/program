@@ -1,0 +1,90 @@
+*{
+	box-sizing:content-box;
+	padding:0;
+	margin:200;
+}
+
+table tr,th,td{
+	padding:10px;
+
+	border: 1px solid gray;
+	
+	
+	font-size:18px;
+	font-family:arial;
+	text-align:center;
+	
+	}
+table{
+	border-collapse: collapse;
+	width: auto;
+}
+.ViewResult{
+	color:white;
+background-image:radial-gradient(#2196f3,#2196f3);
+	padding:9px;
+	border-bottom-right-radius: 2px;
+	border-top-left-radius:2px;
+	border-bottom-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border-collapse: collapse;
+	    text-decoration: none;
+		font-size:15px;
+	
+}
+.reset{
+	color:white;
+	
+background-image:radial-gradient(#f08080,#f08080);
+	padding:9px;
+	border-bottom-right-radius: 2px;
+	border-top-left-radius:2px;
+	border-bottom-left-radius: 2px;
+	border-top-right-radius: 2px;
+	
+	    text-decoration: none;
+		font-size:15px;
+	
+}
+.query{
+	text-align: left;
+	color: blue;
+}
+.details{
+	text-align: left;
+	padding:20;
+	background: pink;
+}
+.img{
+text-align: left;
+}
+.Result{
+	text-align: left;
+	
+}
+.Result:hover,.back:hover,.query:hover,.Disclaimer:hover{
+	background: lightgray;
+}
+.Disclaimer{
+	text-align: left;
+	color: maroon;
+	font-size: 8;
+}
+.describe
+{text-align: left;
+	background: lightblue;
+}
+.table-box
+{
+	width: 82%;
+}
+ input[type='text'],
+ input[type='date'],
+
+select{outline: 0;
+	background: white;
+	
+	padding: 15px;
+	box-sizing: border-box;
+	font-size:15px;
+	}
